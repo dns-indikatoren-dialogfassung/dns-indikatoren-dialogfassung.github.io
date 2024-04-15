@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240412074735">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1336,45 +1336,52 @@ data-event-label="Change to Table tab"
     
         
         
+            
         
         
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-national"
+                  data-bs-target="#national"
+                  aria-controls="national"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.details tab"
 
-            >Details</button>
-        </li>
+                  
+                  >Details</button>
+          </li>
+        
     
         
         
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-sources"
+                  data-bs-target="#sources"
+                  aria-controls="sources"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Datenquellen</button>
-        </li>
+                  
+                  >Datenquellen</button>
+          </li>
+        
     
     
 </ul>
@@ -1382,12 +1389,20 @@ data-event-label="Change to indicator.sources tab"
 <div class="tab-content">
   
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
-    <div role="tabpanel" class="tab-pane active" id="national">
+
+
+    <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
           
@@ -1395,6 +1410,870 @@ data-event-label="Change to indicator.sources tab"
         
         <table class="table" style="width:100%; table-layout: fixed;  color: grey; ">
   <tbody>
+  
+  
+  
+  
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+      </article>
+    </div>
+    
+
+    
+      
+    
+
+    
+    <!--  -->
+    
+
+    
+    
+
+
+    <div role="tabpanel" class="tab-pane " id="national">
+      <article>
+        
+          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
+
+        
+        <table class="table" style="width:100%; table-layout: fixed;  color: grey; ">
+  <tbody>
+  
+  
+  
+  
+  
   
   
   
@@ -1416,7 +2295,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Definition </th>
+        <th scope="row" style="text-align: left; width: 150px;">Definition </th>
         <td>
           
             <p>Der Indikator zeigt die Anzahl der Straftaten, die der Polizei angezeigt werden, je 100 000 Einwohnerinnen und Einwohner.</p>
@@ -1447,7 +2326,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Ziel </th>
         <td>
           
             <p>Ein sicheres Umfeld, in dem die Bürgerinnen und Bürger ohne Angst vor Willkür und Kriminalität leben können, ist eine wesentliche Voraussetzung für eine nachhaltige Entwicklung. Deshalb soll die Anzahl der erfassten Straftaten je 100 000 Einwohnerinnen und Einwohner bis zum Jahr 2030 unter 6 500 sinken.</p>
@@ -2266,11 +3145,19 @@ data-event-label="Change to indicator.sources tab"
       </article>
     </div>
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
+
+
     <div role="tabpanel" class="tab-pane " id="sources">
       <article>
         
@@ -3026,12 +3913,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.bka.de/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('des Bundeskriminalamts', 'De')"><img src="https://dns-indikatoren.de/public/OrgImgDe/bka.png" alt="Bundeskriminalamt" title=" Klicken Sie hier um zur Homepage der Organisation Bundeskriminalamt zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -3047,7 +3939,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.bka.de/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('des Bundeskriminalamts', 'De')">Bundeskriminalamt</a></p>
@@ -3063,7 +3955,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.bka.de/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('des Bundeskriminalamts', 'De')">Bundeskriminalamt</a></p>
@@ -3079,7 +3971,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Link zur <br>Datenquelle </th>
+        <th scope="row" style="text-align: left; width: 150px;">Link zur <br>Datenquelle </th>
         <td>
           
             
@@ -3955,12 +4847,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank"><img src="https://dns-indikatoren.de/public/OrgImgDe/destatis.png" alt="Statistisches Bundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Statistisches Bundesamt zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -3976,7 +4873,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -3992,7 +4889,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -4178,12 +5075,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240412074735'></script>
+<script src='/assets/js/sdg.js?v=20240415055039'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240412074735"></script><script>
+    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

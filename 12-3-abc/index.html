@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240412074735">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1056,45 +1056,52 @@ data-event-label="Change to Table tab"
     
         
         
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link active "
+                  data-bs-toggle="tab"
+                  id="tab-proposal"
+                  data-bs-target="#proposal"
+                  aria-controls="proposal"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.details tab"
+data-event-label="Change to Vorschlag tab"
 
-            >Details</button>
-        </li>
+                  style="color: #966d24; font-weight: bold;"
+                  >Vorschlag</button>
+          </li>
+        
     
         
         
+            
         
         
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-sources"
+                  data-bs-target="#sources"
+                  aria-controls="sources"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Datenquellen</button>
-        </li>
+                  
+                  >Datenquellen</button>
+          </li>
+        
     
     
 </ul>
@@ -1102,15 +1109,915 @@ data-event-label="Change to indicator.sources tab"
 <div class="tab-content">
   
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
-    <div role="tabpanel" class="tab-pane active" id="national">
+
+
+    <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Der Vorschlag für den Indikator wurde eingebracht vom Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV), dem Bundesministerium des Innern und für Heimat (BMI), dem Umweltbundesamt, dem Bundesministerium für Wirtschaft und Klimaschutz (BMWK) und dem Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ).</p>
+          <p>Dieser Vorschlag für den Indikator wurde eingebracht vom Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV), dem Bundesministerium des Innern und für Heimat (BMI), dem Umweltbundesamt, dem Bundesministerium für Wirtschaft und Klimaschutz (BMWK) und dem Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ).</p>
+
+        
+        <table class="table" style="width:100%; table-layout: fixed; ">
+  <tbody>
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
+        <td>
+          
+            <p>Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV)<br />Bundesministerium des Innern und für Heimat (BMI)<br />Umweltbundesamt<br />Bundesministerium für Wirtschaft und Klimaschutz (BMWK)<br />Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung des Indikators </th>
+        <td>
+          
+            <p>Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde: <br />Der Indikator stellt den zahlenmäßige Anteil der vergebenen öffentlichen Aufträge/Konzessionen dar, in deren Vergabeverfahren mindestens ein soziales oder umweltbezogenes bzw. innovatives Nachhaltigkeitskriterium einbezogen worden ist, an der Gesamtzahl der vergebenen öffentlichen Aufträge/Konzessionen. <br />Nachhaltigkeitskriterien sind in Anlage 9 der Vergabestatistikverordnung (VergStatVO) beschrieben.<br />Berücksichtigt werden öffentliche Aufträge und Konzessionen ab 25.000 EUR (ohne Umsatzsteuer). <br />Eine getrennte Ausweisung nach der auftraggebenden Ebene ist nach Bundes-, Landes- und kommunaler Ebene sowie von sonstigen öffentlichen Auftraggebern möglich. <br />Der Indikator gibt einen quantitativen Überblick über den Umfang, in welchem mindestens ein Nachhaltigkeitskriterium bei einer öffentlichen Beschaffung berücksichtigt worden ist. Er trifft keine Aussage darüber, inwieweit diese Kriterien tatsächlich auf die final beschafften Produkte zutrafen, oder wie sozial oder umweltbezogen bzw. innovativ diese Produkte in der Herstellung oder Nutzung tatsächlich sind. <br />Aktuell besteht eine Differenz zwischen den gemeldeten Vergaben und der tatsächlichen Gesamtsumme der öffentlichen Beschaffung. Durch die bestehende Berichtspflicht ist aber eine umfassendere Abbildung mittelfristig zu erwarten.  <br /> <br />Nachhaltig beschaffte Textilien:  <br />Im Maßnahmenprogramm Nachhaltigkeit (2015, 2021) hat sich die Bundesregierung dazu verpflichtet, „möglichst 50 % der Textilien (ausgenommen Sondertextilien) nach ökologischen und sozialen Kriterien zu beschaffen“ (2015) und als notwendige Voraussetzung für Umsetzung dieses Ziels den Stufenplan schnellstmöglich zu finalisieren (2021). Der „Stufenplan zur Steigerung der nachhaltigen Beschaffung von Textilien“ ist am 15.03.2023 in Kraft getreten und formuliert die quantitativen Ziele zur Steigerung der nachhaltigen Textilbeschaffung. Zentrale Grundlage des Stufenplans ist der von der Bundesregierung veröffentlichte „Leitfaden der Bundesregierung für eine nachhaltige Textilbeschaffung der Bundesverwaltung“. Der Leitfaden dient als praxisrelevante Unterstützung für Beschaffungsverantwortliche und definiert die ökologischen und sozialen Anforderungen der Bundesregierung an eine nachhaltige öffentliche Textilbeschaffung.<br />Die Daten für die Berechnung des Anteils nachhaltig beschaffter Textilien am finanziellen Gesamtvolumen der durch die Behörden und Einrichtungen der Bundesverwaltung beschafften Textilien (exkl. Sondertextilien) werden durch das Monitoring des Maßnahmenprogramms Nachhaltigkeit erhoben, welches von der Koordinierungsstelle Klimaneutrale Bundesverwaltung (KKB) im Bundesministerium für Wirtschaft und Klimaschutz (BMWK) durchgeführt wird.<br />(Für den Indikator gelten der Anwendungsbereich des Maßnahmenprogramms Nachhaltigkeit (2021) sowie die im Leitfaden für eine nachhaltige Textilbeschaffung der Bundesverwaltung als Ausschlusskriterium empfohlenen Anforderungen und der Gel-tungsbereich des Leitfadens.)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <td>
+          
+            <p>a) Anteil an Vergabeverfahren in der öffentlichen Beschaffung, bei denen mindestens ein Nachhaltigkeitskriterium  berücksichtigt wurde: Steigerung<br />b) CO<sub>2</sub>-Emissionen von handelsüblichen Kraftfahrzeugen der öffentlichen Hand: Signifikante Senkung<br />c) Anteil bezuschlagter nachhaltiger Textilien: Steigerung</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+      </article>
+    </div>
+    
+
+    
+      
+    
+
+    
+    <!--  -->
+    
+
+    
+    
+
+
+    <div role="tabpanel" class="tab-pane " id="national">
+      <article>
+        
+          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
 
         
         <table class="table" style="width:100%; table-layout: fixed; ">
@@ -1131,31 +2038,10 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-      
-      <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Beschreibung </th>
-        <td>
-          
-            <p>Der Themenbereich „Nachhaltige Beschaffung“ umfasst drei Indikatoren. „Vergabeverfahren in der öffentlichen Beschaffung, bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde“ (12.3.a) zielt als übergeordneter Indikator auf die öffentliche Beschaffung in ihrer Gesamtheit ab. Die Indikatoren „CO<sub>2</sub> Emissionen der Kfz der öffentlichen Hand“ (12.3.b) und „Nachhaltig beschaffte Textilien“ (12.3.c) bilden exemplarisch zwei wichtige Teilaspekte der öffentlichen Beschaffung ab.</p>
-
-          
-        </td>
-        </tr>
-        
-      
+  
+  
+  
+  
   
       
       
@@ -1165,19 +2051,23 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Ziel </th>
-        <td>
-          
-            <p>a) Anteil an Vergabeverfahren in der öffentlichen Beschaffung, bei denen mindestens ein Nachhaltigkeitskriterium  berücksichtigt wurde: Steigerung<br />b) CO<sub>2</sub>-Emissionen von handelsüblichen Kraftfahrzeugen der öffentlichen Hand: Signifikante Senkung<br />c) Anteil bezuschlagter nachhaltiger Textilien: Steigerung</p>
-
-          
-        </td>
-        </tr>
         
+          
       
-  
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
       
       
       
@@ -1986,11 +2876,19 @@ data-event-label="Change to indicator.sources tab"
       </article>
     </div>
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
+
+
     <div role="tabpanel" class="tab-pane " id="sources">
       <article>
         
@@ -2746,12 +3644,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="http://www.nachhaltige-beschaffung.info/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('der Kompetenzstelle für nachhaltige Beschaffung beim Beschaffungsamt des Bundesministeriums des Innern', 'De')"><img src="https://dns-indikatoren.de/public/OrgImgDe/knb.png" alt="Kompetenzstelle für nachhaltige Beschaffung" title=" Klicken Sie hier um zur Homepage der Organisation Kompetenzstelle für nachhaltige Beschaffung zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -2767,7 +3670,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="http://www.nachhaltige-beschaffung.info/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('der Kompetenzstelle für nachhaltige Beschaffung beim Beschaffungsamt des Bundesministeriums des Innern', 'De')">Kompetenzstelle für nachhaltige Beschaffung</a></p>
@@ -2783,7 +3686,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="http://www.nachhaltige-beschaffung.info/DE/Home/home_node.html" target="_blank" onclick="return confirm_alert('der Kompetenzstelle für nachhaltige Beschaffung beim Beschaffungsamt des Bundesministeriums des Innern', 'De')">Kompetenzstelle für nachhaltige Beschaffung</a></p>
@@ -3655,12 +4558,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.ifeu.de/" target="_blank" onclick="return confirm_alert('des Instituts für Energie- und Umweltforschung Heidelberg gGmbH', 'De')"><img src="https://dns-indikatoren.de/public/OrgImgDe/ifeu.png" alt="Institut für Energie- und Umweltforschung Heidelberg gGmbH" title=" Klicken Sie hier um zur Homepage der Organisation Institut für Energie- und Umweltforschung Heidelberg gGmbH zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -3676,7 +4584,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.ifeu.de/" target="_blank" onclick="return confirm_alert('des Instituts für Energie- und Umweltforschung Heidelberg gGmbH', 'De')">Institut für Energie- und Umweltforschung Heidelberg gGmbH</a></p>
@@ -3692,7 +4600,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.ifeu.de/" target="_blank" onclick="return confirm_alert('des Instituts für Energie- und Umweltforschung Heidelberg gGmbH', 'De')">Institut für Energie- und Umweltforschung Heidelberg gGmbH</a></p>
@@ -4564,12 +5472,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.umweltbundesamt.de/" target="_blank" onclick="return confirm_alert('des Umweltbundesamts', 'De')"><img src="https://dns-indikatoren.de/public/OrgImgDe/uba.png" alt="Umweltbundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Umweltbundesamt zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -4585,7 +5498,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.umweltbundesamt.de/" target="_blank" onclick="return confirm_alert('des Umweltbundesamts', 'De')">Umweltbundesamt</a></p>
@@ -4601,7 +5514,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.umweltbundesamt.de/" target="_blank" onclick="return confirm_alert('des Umweltbundesamts', 'De')">Umweltbundesamt</a></p>
@@ -5463,12 +6376,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank"><img src="https://dns-indikatoren.de/public/OrgImgDe/destatis.png" alt="Statistisches Bundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Statistisches Bundesamt zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -5484,7 +6402,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -5500,7 +6418,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -5656,12 +6574,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240412074735'></script>
+<script src='/assets/js/sdg.js?v=20240415055039'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240412074735"></script><script>
+    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

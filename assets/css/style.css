@@ -3225,6 +3225,10 @@ body {
   padding-bottom: 6px; }
 .goal-1.navigation-btn:hover {
   background-color: #c51829; }
+.goal-1.nav-item.custom {
+  color: #c51829; }
+.goal-1.nav-link.custom {
+  color: #c51829; }
 
 .goal-2.goal-banner {
   background-color: white; }
@@ -3254,6 +3258,10 @@ body {
   padding-bottom: 6px; }
 .goal-2.navigation-btn:hover {
   background-color: #c28c22; }
+.goal-2.nav-item.custom {
+  color: #c28c22; }
+.goal-2.nav-link.custom {
+  color: #c28c22; }
 
 .goal-3.goal-banner {
   background-color: white; }
@@ -3283,6 +3291,10 @@ body {
   padding-bottom: 6px; }
 .goal-3.navigation-btn:hover {
   background-color: #3a792b; }
+.goal-3.nav-item.custom {
+  color: #3a792b; }
+.goal-3.nav-link.custom {
+  color: #3a792b; }
 
 .goal-4.goal-banner {
   background-color: white; }
@@ -3312,6 +3324,10 @@ body {
   padding-bottom: 6px; }
 .goal-4.navigation-btn:hover {
   background-color: #981a25; }
+.goal-4.nav-item.custom {
+  color: #981a25; }
+.goal-4.nav-link.custom {
+  color: #981a25; }
 
 .goal-5.goal-banner {
   background-color: white; }
@@ -3341,6 +3357,10 @@ body {
   padding-bottom: 6px; }
 .goal-5.navigation-btn:hover {
   background-color: #f01c00; }
+.goal-5.nav-item.custom {
+  color: #f01c00; }
+.goal-5.nav-link.custom {
+  color: #f01c00; }
 
 .goal-6.goal-banner {
   background-color: white; }
@@ -3370,6 +3390,10 @@ body {
   padding-bottom: 6px; }
 .goal-6.navigation-btn:hover {
   background-color: #1a9bbc; }
+.goal-6.nav-item.custom {
+  color: #1a9bbc; }
+.goal-6.nav-link.custom {
+  color: #1a9bbc; }
 
 .goal-7.goal-banner {
   background-color: white; }
@@ -3399,6 +3423,10 @@ body {
   padding-bottom: 6px; }
 .goal-7.navigation-btn:hover {
   background-color: #d1a103; }
+.goal-7.nav-item.custom {
+  color: #d1a103; }
+.goal-7.nav-link.custom {
+  color: #d1a103; }
 
 .goal-8.goal-banner {
   background-color: white; }
@@ -3428,6 +3456,10 @@ body {
   padding-bottom: 6px; }
 .goal-8.navigation-btn:hover {
   background-color: #761230; }
+.goal-8.nav-item.custom {
+  color: #761230; }
+.goal-8.nav-link.custom {
+  color: #761230; }
 
 .goal-9.goal-banner {
   background-color: white; }
@@ -3457,6 +3489,10 @@ body {
   padding-bottom: 6px; }
 .goal-9.navigation-btn:hover {
   background-color: #ed4c02; }
+.goal-9.nav-item.custom {
+  color: #ed4c02; }
+.goal-9.nav-link.custom {
+  color: #ed4c02; }
 
 .goal-10.goal-banner {
   background-color: white; }
@@ -3486,6 +3522,10 @@ body {
   padding-bottom: 6px; }
 .goal-10.navigation-btn:hover {
   background-color: #ae0f51; }
+.goal-10.nav-item.custom {
+  color: #ae0f51; }
+.goal-10.nav-link.custom {
+  color: #ae0f51; }
 
 .goal-11.goal-banner {
   background-color: white; }
@@ -3515,6 +3555,10 @@ body {
   padding-bottom: 6px; }
 .goal-11.navigation-btn:hover {
   background-color: #ef8402; }
+.goal-11.nav-item.custom {
+  color: #ef8402; }
+.goal-11.nav-link.custom {
+  color: #ef8402; }
 
 .goal-12.goal-banner {
   background-color: white; }
@@ -3544,6 +3588,10 @@ body {
   padding-bottom: 6px; }
 .goal-12.navigation-btn:hover {
   background-color: #966d24; }
+.goal-12.nav-item.custom {
+  color: #966d24; }
+.goal-12.nav-link.custom {
+  color: #966d24; }
 
 .goal-13.goal-banner {
   background-color: white; }
@@ -3573,6 +3621,10 @@ body {
   padding-bottom: 6px; }
 .goal-13.navigation-btn:hover {
   background-color: #305b33; }
+.goal-13.nav-item.custom {
+  color: #305b33; }
+.goal-13.nav-link.custom {
+  color: #305b33; }
 
 .goal-14.goal-banner {
   background-color: white; }
@@ -3602,6 +3654,10 @@ body {
   padding-bottom: 6px; }
 .goal-14.navigation-btn:hover {
   background-color: #0874a7; }
+.goal-14.nav-item.custom {
+  color: #0874a7; }
+.goal-14.nav-link.custom {
+  color: #0874a7; }
 
 .goal-15.goal-banner {
   background-color: white; }
@@ -3631,6 +3687,10 @@ body {
   padding-bottom: 6px; }
 .goal-15.navigation-btn:hover {
   background-color: #449525; }
+.goal-15.nav-item.custom {
+  color: #449525; }
+.goal-15.nav-link.custom {
+  color: #449525; }
 
 .goal-16.goal-banner {
   background-color: white; }
@@ -3660,6 +3720,10 @@ body {
   padding-bottom: 6px; }
 .goal-16.navigation-btn:hover {
   background-color: #004669; }
+.goal-16.nav-item.custom {
+  color: #004669; }
+.goal-16.nav-link.custom {
+  color: #004669; }
 
 .goal-17.goal-banner {
   background-color: white; }
@@ -3689,6 +3753,10 @@ body {
   padding-bottom: 6px; }
 .goal-17.navigation-btn:hover {
   background-color: #132e43; }
+.goal-17.nav-item.custom {
+  color: #132e43; }
+.goal-17.nav-link.custom {
+  color: #132e43; }
 
 .smaller {
   font-size: 10px; }

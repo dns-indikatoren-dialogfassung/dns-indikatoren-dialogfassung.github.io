@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240412074735">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1334,45 +1334,72 @@ data-event-label="Change to Table tab"
     
         
         
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link active "
+                  data-bs-toggle="tab"
+                  id="tab-proposal"
+                  data-bs-target="#proposal"
+                  aria-controls="proposal"
+                  role="tab"
+                  data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Vorschlag tab"
+
+                  style="color: #449525; font-weight: bold;"
+                  >Vorschlag</button>
+          </li>
+        
+    
         
         
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-national"
+                  data-bs-target="#national"
+                  aria-controls="national"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.details tab"
 
-            >Details</button>
-        </li>
+                  
+                  >Details</button>
+          </li>
+        
     
         
         
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-sources"
+                  data-bs-target="#sources"
+                  aria-controls="sources"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Datenquellen</button>
-        </li>
+                  
+                  >Datenquellen</button>
+          </li>
+        
     
     
 </ul>
@@ -1380,15 +1407,915 @@ data-event-label="Change to indicator.sources tab"
 <div class="tab-content">
   
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
-    <div role="tabpanel" class="tab-pane active" id="national">
+
+
+    <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Der Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV).</p>
+          <p>Dieser Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV).</p>
+
+        
+        <table class="table" style="width:100%; table-layout: fixed; ">
+  <tbody>
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
+        <td>
+          
+            <p>Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung der Überarbeitung </th>
+        <td>
+          
+            <p>Der Indikator liefert Informationen zur Entwicklung der Artenvielfalt, Landschaftsqualität und Nachhaltigkeit der Landnutzungen. Er fasst hierfür Angaben über die bundesweiten Bestandsgrößen ausgewählter repräsentativer Vogelarten der wichtigsten Landschafts- und Lebensraumtypen Deutschlands in einer einfachen Maßzahl zusammen.<br />Der im Jahr 2004 entwickelte Indikator wurde in einem Forschungsvorhaben in den Jahren 2019 - 2022 überprüft und angepasst. Dabei wurde die Artenauswahl angepasst, um die in den letzten Jahren und Jahrzehnten verbesserte Datenqualität aus dem bundesweiten Vogelmonitoring zu berücksichtigen. Zudem wurde die Indikationsfähigkeit der Vogelarten differenziert analysiert und einzelne Arten ausgetauscht. In einem breiten Konsultationsprozess wurden die aktuellen Strategien und Gesetze zum Schutz der biologischen Vielfalt und zur nachhaltigen Entwicklung aufbereitet. Darauf aufbauend wurden sogenannte Landschaftsszenarien formuliert, die für jeden Hauptlebensraum- und Nutzungstyp die zukünftige Entwicklung beschreiben, wenn diese Strategien und Gesetze umgesetzt werden.<br />Die Datenreihen wurden nach der Überarbeitung des Indikators rückwirkend neu berechnet. Der Neuberechnung des Indikators liegt die Entwicklung der Bestände von derzeit 51 Vogelarten zugrunde, die die wichtigsten Landschafts- und Lebensraumtypen in Deutschland repräsentieren (Teilindikatoren zum Agrarland, zu Wäldern, Siedlungen, Binnengewäs-sern sowie Küsten und Meeren). Die Bilanzierung des Teilindikators zu den Alpen ist – wie bereits seit dem Indikatorenbericht 2014 – vorübergehend ausgesetzt, da auch für die überarbeitete Artenauswahl die Datengrundlage zurzeit noch nicht ausreichend belastbar ist. Die historischen Werte für die Jahre 1970 und 1975 sind rekonstruiert.<br />Ein Expertengremium hat für die Zielwertbildung im Jahr 2021 vor dem Hintergrund der aktualisierten Landschaftsszenarien für jede einzelne Vogelart für das Jahr 2030 einen Bestandswert festgelegt. Die Zielwerte der Indikatorarten wurden als Vielfaches der aktuellen Bestandsgrößen bestimmt. Die resultierenden Indexwerte wurden nachfolgend einheitlich auf 100 Prozent normiert, so dass sich für die Teilindikatoren und den Gesamtindikator jeweils Zielwerte von 100 Prozent ergeben. Der Gesamtindikator wird aus den vier Teilindikatoren Agrarland, Wälder, Siedlungen und Binnengewässer berechnet, die stark vom Einfluss und der Intensität der anthropogenen Nutzungen geprägt sind. Die Teilindikatoren werden zum Gesamtindikator anhand aktualisierter Berechnungen zum Flächenanteil in Deutschland gewichtet zusammengezogen. <br />Die Teilindikatoren Küsten und Meere sowie Alpen werden dem Gesamtindikator zur Seite gestellt und erhalten dadurch stärkere Aufmerksamkeit. Der Küstenraum sowie die Alpen bestehen zu großen Teilen aus Schutzgebieten und haben jeweils eigene internationale Schutzregelungen. Für die Erhaltung der biologischen Vielfalt und für eine nachhaltige Entwicklung in diesen Bereichen hat das Management von Schutzgebieten eine hohe Bedeutung. Darüber hinaus ist bei den küstenfernen Meeren auch die Bewertung der EU-Meeresstrategie-Rahmenrichtlinie (MSRL) zu berücksichtigen, nach der die See- und Küstenvögel in der deutschen Nord- und Ostsee nicht den guten Umweltzustand erreichen.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <td>
+          
+            <p>Erreichen des Indexwertes 100 bis 2030</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+      </article>
+    </div>
+    
+
+    
+      
+    
+
+    
+    <!--  -->
+    
+
+    
+    
+
+
+    <div role="tabpanel" class="tab-pane " id="national">
+      <article>
+        
+          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
 
         
         <table class="table" style="width:100%; table-layout: fixed; ">
@@ -1409,30 +2336,20 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Überarbeitung </th>
+        <th scope="row" style="text-align: left; width: 150px;">Definition </th>
         <td>
           
-            <p>Methodische Änderung</p>
+            <p>Der Indikator zeigt die Bestandsentwicklung für 51 ausgewählte Vogelarten in Form eines Index.</p>
 
           
         </td>
@@ -1443,12 +2360,27 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Ziel </th>
         <td>
           
-            <p>Erreichen des Indexwertes 100 bis 2030</p>
+            <p>Eine große Artenvielfalt an Tieren und Pflanzen ist eine wesentliche Voraussetzung für einen leistungsfähigen Naturhaushalt und bildet eine wichtige Lebensgrundlage des Menschen. Um die Artenvielfalt und gleichzeitig die Lebensqualität des Menschen zu erhalten, ist das vorläufige Ziel der Bundesregierung ein Indexwert von 100 bis zum Jahr 2030 – ursprünglich sollte dieser Zielwert bereits bis 2015 erreicht werden. Derzeit wird der Indikator auf Basis neuer Erkenntnisse überarbeitet und zukünftig in angepasster Form für die Berichterstattung verwendet werden.</p>
 
           
         </td>
@@ -2264,11 +3196,19 @@ data-event-label="Change to indicator.sources tab"
       </article>
     </div>
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
+
+
     <div role="tabpanel" class="tab-pane " id="sources">
       <article>
         
@@ -3022,12 +3962,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.bfn.de/" target="_blank" onclick="return confirm_alert('des Bundesamts für Naturschutz', 'De')"><img src="https://dns-indikatoren.de/public/OrgImgDe/bfn.png" alt="Bundesamt für Naturschutz" title=" Klicken Sie hier um zur Homepage der Organisation Bundesamt für Naturschutz zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -3043,7 +3988,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.bfn.de/" target="_blank" onclick="return confirm_alert('des Bundesamts für Naturschutz', 'De')">Bundesamt für Naturschutz</a></p>
@@ -3059,7 +4004,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.bfn.de/" target="_blank" onclick="return confirm_alert('des Bundesamts für Naturschutz', 'De')">Bundesamt für Naturschutz</a></p>
@@ -3075,7 +4020,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Link zur <br>Datenquelle </th>
+        <th scope="row" style="text-align: left; width: 150px;">Link zur <br>Datenquelle </th>
         <td>
           
             
@@ -3277,12 +4222,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240412074735'></script>
+<script src='/assets/js/sdg.js?v=20240415055039'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240412074735"></script><script>
+    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

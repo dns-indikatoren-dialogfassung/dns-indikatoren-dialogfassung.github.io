@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240412074735">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1402,45 +1402,72 @@ data-event-label="Change to Table tab"
     
         
         
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link active "
+                  data-bs-toggle="tab"
+                  id="tab-proposal"
+                  data-bs-target="#proposal"
+                  aria-controls="proposal"
+                  role="tab"
+                  data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Vorschlag tab"
+
+                  style="color: #f01c00; font-weight: bold;"
+                  >Vorschlag</button>
+          </li>
+        
+    
         
         
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link active"
-                data-bs-toggle="tab"
-                id="tab-national"
-                data-bs-target="#national"
-                aria-controls="national"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-national"
+                  data-bs-target="#national"
+                  aria-controls="national"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.details tab"
 
-            >Details</button>
-        </li>
+                  
+                  >Details</button>
+          </li>
+        
     
         
         
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
+          
+          
+          <li role="presentation" class="nav-item">
+              <button
+                  type="button"
+                  class="nav-link  "
+                  data-bs-toggle="tab"
+                  id="tab-sources"
+                  data-bs-target="#sources"
+                  aria-controls="sources"
+                  role="tab"
+                  data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Datenquellen</button>
-        </li>
+                  
+                  >Datenquellen</button>
+          </li>
+        
     
     
 </ul>
@@ -1448,15 +1475,926 @@ data-event-label="Change to indicator.sources tab"
 <div class="tab-content">
   
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
-    <div role="tabpanel" class="tab-pane active" id="national">
+
+
+    <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Der Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ).</p>
+          <p>Dieser Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ).</p>
+
+        
+        <table class="table" style="width:100%; table-layout: fixed; ">
+  <tbody>
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
+        <td>
+          
+            <p>Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung der Überarbeitung </th>
+        <td>
+          
+            <p>Der derzeitige Indikator „Väterbeteiligung beim Elterngeld“ gibt lediglich den Anteil der Väter an, die Elterngeld bezogen haben, jedoch nicht den Umfang. Somit ist die Aussagekraft hinsichtlich des Ziels der partnerschaftlichen Aufgabenteilung in den Familien begrenzt, da der Wert des Indikators auch ansteigt, wenn mehr Väter Elterngeld beziehen, die durchschnittliche Dauer jedoch stagniert oder sogar rückläufig ist.<br />Im Gegensatz dazu gibt der Väteranteil an den genommenen Elterngeldmonaten den Anteil der männlichen Bezieher an allen genommenen Elterngeldmonaten an. Er würde also genau 50 % betragen, wenn bei allen Kindern sowohl der Vater als auch die Mutter in gleichem Umfang Elterngeldmonate nehmen würden.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Definition für Überarbeitungs&shy;vorschlag </th>
+        <td>
+          
+            <p>Der Indikator gibt den Anteil der männlichen Bezieher an allen genommenen Elterngeldmonaten an.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <td>
+          
+            <p>da) Väterbeteiligung beim Elterngeld: Anstieg auf 65 Prozent bis 2030<br />db) Väteranteil an den genommenen Elterngeldmonaten: Anstieg auf 12 Prozent bis 2030</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+      </article>
+    </div>
+    
+
+    
+      
+    
+
+    
+    <!--  -->
+    
+
+    
+    
+
+
+    <div role="tabpanel" class="tab-pane " id="national">
+      <article>
+        
+          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
 
         
         <table class="table" style="width:100%; table-layout: fixed; ">
@@ -1477,11 +2415,27 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
-        
+      
+      <tr>
+        <th scope="row" style="text-align: left; width: 150px;">Definition </th>
+        <td>
           
+            <p>Der Indikator gibt den Anteil der Kinder an, deren Väter Elterngeld bezogen haben.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1497,7 +2451,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Überarbeitung </th>
+        <th scope="row" style="text-align: left; width: 150px;">Überarbeitung </th>
         <td>
           
             <p>Ergänzung Väteranteil an genommenen Elterngeldmonaten</p>
@@ -1513,10 +2467,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Ziel </th>
         <td>
           
-            <p>da) Väterbeteiligung beim Elterngeld: Anstieg auf 65 Prozent bis 2030<br />db) Väteranteil an den genommenen Elterngeldmonaten: Anstieg auf 12 Prozent bis 2030</p>
+            <p>Das Elterngeld soll Familien bei einer partnerschaftlichen Aufgabenteilung unterstützen und eine gute Vereinbarkeit von Familie und Beruf für Mütter und Väter erreichen. Besonders mit der Einführung des ElterngeldPlus und des Partnerschaftsbonus soll der gesellschaftliche Wandel geschlechtsstereotyper Rollenbilder von Müttern und Vätern weiter vorangetrieben und letztendlich auch die Gleichstellung am Arbeitsmarkt befördert werden. Die Bundesregierung hat sich deshalb zum Ziel gesetzt den Anteil der Väter, die Elterngeld beziehen, zum Jahr 2030 auf 65 % zu steigern.</p>
 
           
         </td>
@@ -2332,11 +3286,19 @@ data-event-label="Change to indicator.sources tab"
       </article>
     </div>
     
+
+    
+      
+    
+
     
     <!--  -->
     
+
     
     
+
+
     <div role="tabpanel" class="tab-pane " id="sources">
       <article>
         
@@ -3090,12 +4052,17 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
+  
+  
+  
+  
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;"> </th>
+        <th scope="row" style="text-align: left; width: 150px;"> </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank"><img src="https://dns-indikatoren.de/public/OrgImgDe/destatis.png" alt="Statistisches Bundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Statistisches Bundesamt zu gelangen." style="height:60px; width:148px; border:transparent" /></a></p>
@@ -3111,7 +4078,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -3127,7 +4094,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Organisation </th>
+        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
         <td>
           
             <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
@@ -3143,7 +4110,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 130px;">Link zur <br>Datenquelle </th>
+        <th scope="row" style="text-align: left; width: 150px;">Link zur <br>Datenquelle </th>
         <td>
           
             
@@ -3345,12 +4312,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240412074735'></script>
+<script src='/assets/js/sdg.js?v=20240415055039'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240412074735"></script><script>
+    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
