@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240417134034">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1060,10 +1060,10 @@ data-event-label="Change to Table tab"
                   data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Vorschlag tab"
+data-event-label="Change to Vorschlag der Bundesregierung tab"
 
                   style="color: #449525; font-weight: bold;"
-                  >Vorschlag</button>
+                  >Vorschlag der Bundesregierung</button>
           </li>
         
     
@@ -1115,31 +1115,12 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Dieser Vorschlag für den Indikator wurde eingebracht vom Statistischen Bundesamt, dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) und dem Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen (BMWSB).</p>
-
-        
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
   
   
   
   
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
-        <td>
-          
-            <p>Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV)<br />Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen (BMWSB)</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
       
       
@@ -1154,7 +1135,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung des Indikators </th>
         <td>
           
-            <p>Der Indikator basiert auf Daten des europäischen Copernicus-Programms zum Versiegelungsgrad. Eine Fläche gilt dabei als versiegelt, wenn sie bebaut, betoniert, asphaltiert, gepflastert oder auf andere Art langfristig befestigt ist. Zur Erstellung dieses Datensatzes werden Satellitendaten automatisiert ausgewertet und für jede betrachtete Flächenzelle der Anteil der versiegelten Fläche berechnet und anschließend der entsprechende Mittelwert gebildet. In diesen Datensatz fließen also keine Informationen aus Katastern oder ähnlichen Quellen ein, sondern er basiert ausschließlich auf Informationen, die sich aus der Fernerkundung der Erdoberfläche ableiten lassen.<br />Der Indikator kann sowohl<br />•	für ganz Deutschland<br />•	für die Fläche von Städten ab einer frei definierten Größe oder<br />•	für alle städtische Gebiete (z. B. Ortslagen nach Bundesamt für Kartographie und Geodäsie (BKG) oder städtischen Gebieten nach der EU Definition DEGURBA)<br />zunächst im 3-Jährigen Rhythmus und ab 2024 voraussichtlich rückwirkend bis 2017 jährlich berechnet werden.<br />Seit dem Berichtsjahr 2018 liegen Daten in einer höheren Auflösung vor, sodass die Bodenversiegelung ab 2018 räumlich detaillierter und realistischer abgebildet wird.</p>
+            <p>Der Indikator basiert auf Daten des europäischen Copernicus-Programms zum Versiegelungsgrad. Eine Fläche gilt dabei als versiegelt, wenn sie bebaut, betoniert, asphaltiert, gepflastert oder auf andere Art langfristig befestigt ist. Zur Erstellung dieses Datensatzes werden Satellitendaten automatisiert ausgewertet und für jede betrachtete Flächenzelle der Anteil der versiegelten Fläche berechnet und anschließend der entsprechende Mittelwert gebildet. In diesen Datensatz fließen also keine Informationen aus Katastern oder ähnlichen Quellen ein, sondern er basiert ausschließlich auf Informationen, die sich aus der Fernerkundung der Erdoberfläche ableiten lassen.<br />Der Indikator kann sowohl:<br />•	für ganz Deutschland,<br />•	für die Fläche von Städten ab einer frei definierten Größe oder<br />•	für alle städtischen Gebiete (z. B. Ortslagen nach Bundesamt für Kartographie und Geodäsie (BKG) oder städtischen Gebieten nach der EU Definition DEGURBA)<br />zunächst im 3-jährigen Rhythmus und ab 2024 voraussichtlich rückwirkend bis 2017 jährlich berechnet werden.<br />Seit dem Berichtsjahr 2018 liegen Daten in einer höheren Auflösung vor, sodass die Bodenversiegelung ab 2018 räumlich detaillierter und realistischer abgebildet wird.</p>
 
           
         </td>
@@ -1172,7 +1153,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quantifiziertes Ziel </th>
         <td>
           
             <p>Sinkende Zunahme der Bodenversiegelung</p>
@@ -1182,7 +1163,6 @@ data-event-label="Change to indicator.sources tab"
         </tr>
         
       
-  
   
   
   
@@ -2007,10 +1987,10 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane " id="national">
       <article>
         
-          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
+          <p>Die Angaben zu Definition sowie Ziel und Intention des Indikators stammen aus dem <a href="https://dns-indikatoren.de/assets/Publikationen/Indikatorenberichte/2022.pdf">Indikatorenbericht 2022</a>.</p>
 
         
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
   
   
@@ -2032,12 +2012,6 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-  
-      
-      
-      
-        
-          
       
       
       
@@ -2898,10 +2872,8 @@ data-event-label="Change to indicator.sources tab"
       
         <h4>Datenquelle 1</h4>
       
-      <table class="table" style="width:100%; table-layout: fixed; ">
+      <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
-  
   
   
   
@@ -3675,16 +3647,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
-        <td>
-          
-            <p><a href="https://www.copernicus.eu/de" target="_blank">Europäisches Copernicus-Programm</a></p>
-
-          
-        </td>
-        </tr>
-        
       
   
       
@@ -3800,10 +3762,8 @@ data-event-label="Change to indicator.sources tab"
       
         <h4>Datenquelle 2</h4>
       
-      <table class="table" style="width:100%; table-layout: fixed; ">
+      <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
-  
   
   
   
@@ -4589,16 +4549,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
-        <td>
-          
-            <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
-
-          
-        </td>
-        </tr>
-        
       
   
       
@@ -4776,12 +4726,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240415055039'></script>
+<script src='/assets/js/sdg.js?v=20240417134034'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
+    <script src="/assets/js/custom.js?v=20240417134034"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

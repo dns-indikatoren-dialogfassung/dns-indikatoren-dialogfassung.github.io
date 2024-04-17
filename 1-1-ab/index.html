@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240417134034">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -818,10 +818,10 @@ data-event-label="Change to Table tab"
                   data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Vorschlag tab"
+data-event-label="Change to Vorschlag der Bundesregierung tab"
 
                   style="color: #c51829; font-weight: bold;"
-                  >Vorschlag</button>
+                  >Vorschlag der Bundesregierung</button>
           </li>
         
     
@@ -893,10 +893,7 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Dieser Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Bundesministerium für Arbeit und Soziales (BMAS).</p>
-
-        
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
   
   
@@ -908,26 +905,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
-        <td>
-          
-            <p>Bundesministerium für Arbeit und Soziales (BMAS)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
         <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung der Überarbeitung </th>
         <td>
           
-            <p>Anpassung des Indikators, da der EU-Indikator im Rahmen der Europa 2030-Ziele eine Erweiterung erfahren hat: zusätzliche Kriterien zur sozialen Deprivation werden berücksichtigt (z.B. Rechnungen rechtzeitig zahlen, Kleidung kaufen, von zu Hause Zugang zum Internet, Betrag für persönliche Bedürfnisse). Von den aufgeführten 13 Elementen müssen mind. 5 für materielle/soziale Deprivation erfüllt sein, 7 für erhebliche.</p>
+            <p>Anpassung des Indikators, da der EU-Indikator im Rahmen der Europa 2030-Ziele eine Erweiterung erfahren hat: zusätzliche Kriterien zur sozialen Deprivation werden berücksichtigt (z.B. Rechnungen rechtzeitig zahlen, Kleidung kaufen, von zu Hause Zugang zum Internet, Betrag für persönliche Bedürfnisse). Von den 13 vorgegebenen Kriterien müssen für materielle und soziale Deprivation mindestens fünf (erhebliche materielle und soziale Deprivation: mindestens sieben) erfüllt sein.</p>
 
           
         </td>
@@ -943,25 +924,14 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Definition für Überarbeitungs&shy;vorschlag </th>
-        <td>
-          
-            <p>Materielle <b> und soziale</b> Deprivation beschreibt den unfreiwilligen Verzicht auf ausgewählten Konsum aufgrund finanzieller Probleme und den Mangel an bestimmten Gebrauchsgütern aus finanziellen Gründen. Beide Indikatoren geben den Anteil der Personen an der Gesamtbevölkerung an, die als materiell <b> und sozial</b> depriviert (1.1.a) <abbr title="beziehungsweise" tabindex="0">bzw.</abbr> als erheblich materiell <b> und sozial</b> depriviert (1.1.b) gelten. Die (erhebliche) materielle <b> und soziale</b> Entbehrung trifft für alle Menschen zu, deren Haushalt von <b>dreizehn</b> vorgegebenen Kriterien, welche die finanziellen Einschränkungen des Haushalts widerspiegeln, mindestens <b>fünf</b> (erheblich materiell <b> und soziale</b> depriviert: mindestens <b>sieben</b>) erfüllt.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
+          
       
       
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quantifiziertes Ziel </th>
         <td>
           
             <p>a) Anteil der Personen, die materiell und sozial depriviert sind, bis 2030 unter dem EU-Wert halten<br />b) Anteil der Personen, die erheblich materiell und sozial depriviert sind, bis 2030 unter dem EU-Wert halten</p>
@@ -971,7 +941,6 @@ data-event-label="Change to indicator.sources tab"
         </tr>
         
       
-  
   
   
   
@@ -1796,12 +1765,11 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane " id="national">
       <article>
         
-          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
+          <p>Die Angaben zu Definition sowie Ziel und Intention des Indikators stammen aus dem <a href="https://dns-indikatoren.de/assets/Publikationen/Indikatorenberichte/2022.pdf">Indikatorenbericht 2022</a>.</p>
 
         
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
   
   
   
@@ -1851,14 +1819,9 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
-          
-      
-      
-      
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Ziel und Intention </th>
         <td>
           
             <p>Der Indikator „materielle Deprivation“ (auch: materielle Entbehrung) ist auch Teil der ausführlichen Armuts- und Reichtumsberichterstattung der Bundesregierung. Durch die Identifikation individueller Mangelsituationen soll er zur Abbildung armutsgefährdeter Lebenslagen dienen. Ziel der Bekämpfung „materieller Deprivation“ ist es, dass der Prozentsatz der Personen, die materiell depriviert <abbr title="beziehungsweise" tabindex="0">bzw.</abbr> erheblich materiell depriviert sind, jeweils unter dem Niveau der Europäischen Union (<abbr title="Europäische Union" tabindex="0">EU</abbr>) liegt.</p>
@@ -2709,10 +2672,8 @@ data-event-label="Change to indicator.sources tab"
       
         <h4>Datenquelle 1</h4>
       
-      <table class="table" style="width:100%; table-layout: fixed; ">
+      <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
-  
   
   
   
@@ -3486,16 +3447,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
-        <td>
-          
-            <p><a href="https://ec.europa.eu/eurostat/de/home" target="_blank" onclick="return confirm_alert('von Eurostat', 'De')">Eurostat</a></p>
-
-          
-        </td>
-        </tr>
-        
       
   
       
@@ -3651,10 +3602,8 @@ data-event-label="Change to indicator.sources tab"
       
         <h4>Datenquelle 2</h4>
       
-      <table class="table" style="width:100%; table-layout: fixed; ">
+      <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
-  
   
   
   
@@ -4440,16 +4389,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
-        <td>
-          
-            <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
-
-          
-        </td>
-        </tr>
-        
       
   
       
@@ -4627,12 +4566,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240415055039'></script>
+<script src='/assets/js/sdg.js?v=20240417134034'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
+    <script src="/assets/js/custom.js?v=20240417134034"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

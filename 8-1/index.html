@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240415055039">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240417134034">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -818,10 +818,10 @@ data-event-label="Change to Table tab"
                   data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Vorschlag tab"
+data-event-label="Change to Vorschlag der Bundesregierung tab"
 
                   style="color: #761230; font-weight: bold;"
-                  >Vorschlag</button>
+                  >Vorschlag der Bundesregierung</button>
           </li>
         
     
@@ -893,10 +893,7 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane active" id="proposal">
       <article>
         
-          <p>Dieser Vorschlag zur Überarbeitung des Indikators wurde eingebracht vom Statistischen Bundesamt und dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV).</p>
-
-        
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
   
   
@@ -908,26 +905,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Betroffene Ressorts </th>
-        <td>
-          
-            <p>Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
         <th scope="row" style="text-align: left; width: 150px;">Fachliche Erläuterung der Überarbeitung </th>
         <td>
           
-            <p>Der Indikator entspricht der Definition des bisherigen Indikators 8.1, mit dem Unterschied, dass die Zeitreihe des hier vorgeschlagenen Indikators 2010 beginnt (statt bisher 2000). Die Daten des Indikators sind entsprechend auf das Basisjahr 2010 normiert (2010=100).<br />Begründung: Die Angaben zum Rohstoffeinsatz (Nenner des Indikators) wurden vor 2010 nur zu wenigen Berichtsjahren per Modellrechnung ermittelt und für die übrigen Jahre vor 2010 interpoliert. Zudem beruhen die Angaben vor 2010 auf einem Rechenmodell das mittlerweile methodisch und technisch überarbeitet wurde, weshalb methodische Verbesserungen in den Daten vor 2010 nicht mehr umgesetzt werden können. Da geplant ist, dass die Zeitreihe bis zur Veröffentlichung des nächsten Indikatorenberichts bis 2021 erweitert wird, liegt bei Betrachtung ab 2010 ein Berichtszeitraum von über einer Dekade vor.</p>
+            <p>Der Indikator entspricht der Definition des bisherigen Indikators 8.1, mit dem Unterschied, dass die Zeitreihe des hier vorgeschlagenen Indikators 2010 beginnt (statt bisher 2000). Die Daten des Indikators sind entsprechend auf das Basisjahr 2010 normiert (2010=100).<br />Begründung: Die Angaben zum Rohstoffeinsatz (Nenner des Indikators) wurden vor 2010 nur zu wenigen Berichtsjahren per Modellrechnung ermittelt und für die übrigen Jahre vor 2010 interpoliert. Zudem beruhen die Angaben vor 2010 auf einem Rechenmodell das mittlerweile methodisch und technisch überarbeitet wurde, weshalb methodische Verbesserungen in den Daten vor 2010 nicht mehr umgesetzt werden können.</p>
 
           
         </td>
@@ -950,7 +931,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quatifiziertes Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Vorschlag für (möglichst) quantifiziertes Ziel </th>
         <td>
           
             <p>Beibehaltung des Trends der Jahre 2000 – 2010 bis 2030</p>
@@ -960,7 +941,6 @@ data-event-label="Change to indicator.sources tab"
         </tr>
         
       
-  
   
   
   
@@ -1785,12 +1765,11 @@ data-event-label="Change to indicator.sources tab"
     <div role="tabpanel" class="tab-pane " id="national">
       <article>
         
-          <p>Die Angaben zu Definition und Ziel des Indikators stammen aus dem Indikatorenbericht 2022.</p>
+          <p>Die Angaben zu Definition sowie Ziel und Intention des Indikators stammen aus dem <a href="https://dns-indikatoren.de/assets/Publikationen/Indikatorenberichte/2022.pdf">Indikatorenbericht 2022</a>.</p>
 
         
-        <table class="table" style="width:100%; table-layout: fixed; ">
+        <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
   
   
   
@@ -1840,14 +1819,9 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
-          
-      
-      
-      
       
       <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Ziel </th>
+        <th scope="row" style="text-align: left; width: 150px;">Ziel und Intention </th>
         <td>
           
             <p>Die Entnahme von Rohstoffen ist immer mit einer Beeinträchtigung der Natur verbunden. Durch die steigende Nachfrage nach Rohstoffen werden weltweit zunehmend Rohstoffvorkommen in Gebieten erschlossen, die besonders sensibel auf menschliche Einflüsse reagieren. Daher hat sich die Bundesregierung bereits im Deutschen Ressourceneffizienzprogramm (ProgRess) II im Jahr 2016 das Ziel gesetzt, dass die Gesamtrohstoffproduktivität weiterhin steigen soll. In den Jahren 2000 bis 2010 nahm die Gesamtrohstoffproduktivität bereits um durchschnittlich rund 1,6 % jährlich zu. Ein solch positiver Trend soll bis zum Jahr 2030 fortgesetzt werden.</p>
@@ -2696,10 +2670,8 @@ data-event-label="Change to indicator.sources tab"
     
     <div class="col-md-6">
       
-      <table class="table" style="width:100%; table-layout: fixed; ">
+      <table class="table" style="width:100%; table-layout: fixed;">
   <tbody>
-  
-  
   
   
   
@@ -3473,16 +3445,6 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      <tr>
-        <th scope="row" style="text-align: left; width: 150px;">Organisation </th>
-        <td>
-          
-            <p><a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a></p>
-
-          
-        </td>
-        </tr>
-        
       
   
       
@@ -3692,12 +3654,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20240415055039'></script>
+<script src='/assets/js/sdg.js?v=20240417134034'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240415055039"></script><script>
+    <script src="/assets/js/custom.js?v=20240417134034"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
